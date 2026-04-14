@@ -7,7 +7,9 @@
       "WebSearch",
       "WebFetch(domain:api.github.com)",
       "Bash(git branch:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('.github/AL-Go-Settings.json','utf8'\\)\\); console.log\\('VALID'\\)\")",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('.AL-Go/settings.json','utf8'\\)\\); console.log\\('VALID'\\)\")"
     ]
   }
 }
