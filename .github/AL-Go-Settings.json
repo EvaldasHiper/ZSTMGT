@@ -18,7 +18,7 @@
   ],
   "DeployToZSTMGT": {
     "environmentType": "SaaS",
-    "projects": "C",
+    "projects": "ZSTMGT",
     "continuousDeployment": true
   }
 }
