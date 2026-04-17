@@ -11,5 +11,9 @@
     "CRS.ObjectNamePrefix": "ZST ",
     "al.excludeFiles": [
         "ZSTSetupMgt.Test/**"
+    ],
+    "al.assemblyProbingPaths": [
+        "./.netpackages/shared/",
+        "./.netpackages/Service"
     ]
 }

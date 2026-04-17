@@ -20,7 +20,15 @@
       "WebFetch(domain:webcache.googleusercontent.com)",
       "WebFetch(domain:marketplace.visualstudio.com)",
       "WebFetch(domain:cosmo-docs.com)",
-      "WebFetch(domain:docs.cosmo-consult.com)"
+      "WebFetch(domain:docs.cosmo-consult.com)",
+      "Bash(grep -E \"\\\\.\\(al|txt\\)$\")",
+      "Bash(python -c \"import docx; print\\('python-docx ok'\\)\")",
+      "Bash(powershell -Command \"Test-Path 'C:\\\\Program Files\\\\Microsoft Office'\")",
+      "Bash(powershell -Command \"Get-Item 'C:\\\\Users\\\\evald\\\\Desktop\\\\alpaca-setup.doc' | Select-Object Name, Length, LastWriteTime\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\evald\\\\AppData\\\\Local\\\\Temp\\\\create-doc.ps1\")"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\evald\\AppData\\Local\\Temp"
     ]
   }
 }
