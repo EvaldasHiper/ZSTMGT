@@ -3,12 +3,17 @@
   "type": "PTE",
   "country": "nl",
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
+  "trustedNuGetFeeds": [
+    {
+      "url": "https://nuget.pkg.github.com/EvaldasHiper/index.json",
+      "authTokenSecret": "GitHubPackagesContext"
+    }
+  ],
   "alpaca": {
     "artifacts": [
       {
-        "type": "url",
-        "name": "Zest Setup Management",
-        "url": "https://hiperzeststorage.blob.core.windows.net/configuration/ZestSetupManagement.app?sv=2024-11-04&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2027-01-21T22:31:23Z&st=2026-01-21T14:16:23Z&spr=https&sig=7%2FD1j6yUYdgct%2B8vliCk3tb4y2hkNoO1%2BuoYFYEKaI8%3D"
+        "type": "nuget",
+        "name": "Zest Setup Management"
       },
       {
         "type": "url",
