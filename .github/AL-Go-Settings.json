@@ -11,7 +11,8 @@
   "alpaca": {
     "artifacts": [
       {
-        "name": "Zest.ZestSetupManagement.6c60b69f-24af-4955-9186-703df5a6f551"
+        "name": "Zest.ZestSetupManagement.6c60b69f-24af-4955-9186-703df5a6f551",
+        "version": "28.1.23"
       },
       {
         "type": "url",
