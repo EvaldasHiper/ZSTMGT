@@ -3,6 +3,11 @@
   "type": "PTE",
   "country": "nl",
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
+  "trustedNuGetFeeds": [
+    {
+      "url": "https://nuget.pkg.github.com/EvaldasHiper/index.json"
+    }
+  ],
   "alpaca": {
     "artifacts": [
       {
